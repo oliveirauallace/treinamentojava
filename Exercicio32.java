@@ -10,7 +10,8 @@ public class Exercicio32 {
         System.out.println("Digite um número:");
         int num = sc.nextInt();
 
-        while (num >0 && num<10){
+        while (num >0 || num<10){
+            for ()
 
         }
 
