@@ -7,5 +7,12 @@ public class Exercicio32 {
         Scanner sc = new Scanner(System.in);
 
 
+        System.out.println("Digite um número:");
+        int num = sc.nextInt();
+
+        while (num >0 && num<10){
+
+        }
+
     }
 }
