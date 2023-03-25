@@ -18,6 +18,8 @@ public class Exercicio33 {
             double media = nota;
 
 
+
+
             }
 
     }
