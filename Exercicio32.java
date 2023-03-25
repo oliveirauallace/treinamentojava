@@ -15,8 +15,8 @@ public class Exercicio32 {
             num = sc.nextInt();
 
 
-        }while (num >=0 || num >=10);
-        for (int x=num; x<4+num;x++){
+        }while (num <=0 || num >=10);
+        for (int x=num; x<40+num;x++){
             if (x%2==1){
                  resultado += x*x;
 
