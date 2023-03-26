@@ -6,18 +6,14 @@ public class Exercicio34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num =0;
-
-        do {
-            System.out.println("Informe quantos números quiser, número negativo encerra o programa");
+        int num2 = 0;
+        while (num >0){
+            System.out.println("Digite um número");
+            System.out.println("Quando incluir um número negativo o sistema será finalizado");
             num = sc.nextInt();
-            if (num>0){
-
-            }
 
 
-
-        }while (num <0);
-        System.out.println(num);
+        }
 
     }
 }
