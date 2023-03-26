@@ -13,6 +13,7 @@ public class Exercicio34 {
             num = sc.nextInt();
 
 
+
         }
 
     }
