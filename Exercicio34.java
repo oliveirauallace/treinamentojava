@@ -6,7 +6,6 @@ public class Exercicio34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numAtual, maior, menor;
-        boolean primeiro = true;
 
         System.out.println("Digite um número: (Número negativo encerra o programa)");
         numAtual = sc.nextInt();
