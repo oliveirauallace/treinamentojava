@@ -5,23 +5,14 @@ import java.util.Scanner;
 public class Exercicio33 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double matricula;
-        double nota;
-        int cont;
+        int QtdAluno;
+        String matricula;
+        double media =0;
 
-        System.out.println("Informe a matrícula do aluno: ");
-        matricula = sc.nextDouble();
-        System.out.println("Informe a nota do aluno:");
-        nota = sc.nextDouble();
-
-        while(matricula != 0) {
-            double media = nota;
+        System.out.println("Informe a quantidade de Alunos: ");
+        QtdAluno = sc.nextInt();
 
 
-
-
-
-            }
 
     }
 }

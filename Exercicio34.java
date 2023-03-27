@@ -5,16 +5,27 @@ import java.util.Scanner;
 public class Exercicio34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num =0;
-        int num2 = 0;
-        while (num >0){
-            System.out.println("Digite um número");
-            System.out.println("Quando incluir um número negativo o sistema será finalizado");
-            num = sc.nextInt();
+        int numAtual, maior, menor;
+        boolean primeiro = true;
 
+        System.out.println("Digite um número: (Número negativo encerra o programa)");
+        numAtual = sc.nextInt();
 
+        if (numAtual >0){
+            menor = numAtual;
+            maior = numAtual;
+            while (numAtual>0){
+                System.out.println("Digite outro número: ");
+                numAtual = sc.nextInt();
+                if (numAtual > maior){
+                    maior = numAtual;
 
+                } else if (numAtual < menor && numAtual >=0) {
+                        menor = numAtual;
 
+                    
+                }
+            }System.out.println("O maior número foi "+maior+" e o menor foi "+menor);
         }
 
     }
