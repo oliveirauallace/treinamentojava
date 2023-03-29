@@ -8,6 +8,8 @@ public class Exercicio37 {
         int opcao;
         int num1;
         int num2;
+        int soma;
+        String resposta;
 
         do {
             System.out.println("Seleicone as seguintes opções:");
@@ -18,10 +20,15 @@ public class Exercicio37 {
                 num1 = sc.nextInt();
                 System.out.println("Informe o segundo número: ");
                 num2 = sc.nextInt();
+                soma = num1 + num2;
 
+            }
+            System.out.println(soma);
+            System.out.println("Deseja fazer uma nova operação?");
+            if (resposta == "S" || resposta == "s"){
 
             }
 
-        }
+        }while ()
     }
 }
