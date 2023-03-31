@@ -24,7 +24,7 @@ public class Exercicio41 {
             }
             System.out.println("Deseja continuar? ");
             opcao = sc.next().charAt(0);
-            if (opcao == 'S' || opcao == 's') {
+            if (opcao == 'N' || opcao == 'n') {
                 encerrar = true;
             }
 
