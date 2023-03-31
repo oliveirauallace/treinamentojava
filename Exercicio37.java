@@ -6,7 +6,7 @@ public class Exercicio37 {
         Scanner sc = new Scanner(System.in);
         double opcao;
         boolean encerrar = false;
-        String charOpcao;
+        char charOpcao;
         double resultado;
         double primeiro, segundo;
 
@@ -49,8 +49,8 @@ public class Exercicio37 {
                 opcao = sc.nextDouble();
             }
             System.out.println("Deseja continuar? ");
-            charOpcao = sc.next();
-            if (charOpcao == "N" || charOpcao == "n"){
+            charOpcao = sc.next().charAt(0);
+            if (charOpcao == 'N' || charOpcao == 'n'){
                 encerrar = true;
             }
 
