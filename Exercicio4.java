@@ -10,6 +10,7 @@ public class Exercicio4 {
         char opcao;
         double grupo;
 
+
         while (encerrar == false){
             System.out.println("Informe o índice de poluição: ");
             indice = sc.nextDouble();
