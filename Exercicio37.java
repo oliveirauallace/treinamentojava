@@ -44,6 +44,9 @@ public class Exercicio37 {
                 resultado = primeiro * segundo;
                 System.out.println("O Resultado de "+primeiro+" * "+segundo+" é: "+resultado);
 
+            }else {
+                System.out.println("Opção inválida, digite novamente o número");
+                opcao = sc.nextDouble();
             }
             System.out.println("Deseja continuar? ");
             charOpcao = sc.next();
