@@ -6,9 +6,8 @@ public class Exercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean encerrar = false;
-        double indice = sc.nextDouble();
+        double indice;
         char opcao;
-        double grupo;
 
 
         while (encerrar == false){
