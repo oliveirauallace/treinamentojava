@@ -5,5 +5,6 @@ public class Exercicio38 {
         Scanner sc = new Scanner (System.in);
 
 
+
     }
 }

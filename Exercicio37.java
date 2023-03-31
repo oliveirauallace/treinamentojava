@@ -1,34 +1,58 @@
 package Exercícios;
 
 import java.util.Scanner;
-
 public class Exercicio37 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int opcao;
-        int num1;
-        int num2;
-        int soma;
-        String resposta;
+        double opcao;
+        boolean encerrar = false;
+        String charOpcao;
+        double resultado;
+        double primeiro, segundo;
 
-        do {
-            System.out.println("Seleicone as seguintes opções:");
-            System.out.println("1 - Adição, 2 - Subtração, 3 - Multplicação, 4 - Divisão");
-            opcao = sc.nextInt();
+        while (encerrar = false){
+            System.out.println("Digite uma das opções desejada, sendo: 1- Adição: 2 - Subtração: 3 - Multiplicação: 4 - Divisão");
+            opcao = sc.nextDouble();
+
+
             if (opcao == 1){
                 System.out.println("Informe o primeiro número: ");
-                num1 = sc.nextInt();
+                primeiro = sc.nextDouble();
                 System.out.println("Informe o segundo número: ");
-                num2 = sc.nextInt();
-                soma = num1 + num2;
+                segundo = sc.nextInt();
+                resultado = primeiro + segundo;
+                System.out.println("O Resultado de "+primeiro+" + "+segundo+" é:"+resultado);
+            } else if (opcao ==2) {
+                System.out.println("Informe o primeiro número: ");
+                primeiro = sc.nextDouble();
+                System.out.println("Informe o segundo número: ");
+                segundo = sc.nextInt();
+                resultado = primeiro - segundo;
+                System.out.println("O Resultado de "+primeiro+" - "+segundo+" é:"+resultado);
+
+            } else if (opcao == 3) {
+                System.out.println("Informe o primeiro número: ");
+                primeiro = sc.nextDouble();
+                System.out.println("Informe o segundo número: ");
+                segundo = sc.nextInt();
+                resultado = primeiro / segundo;
+                System.out.println("O Resultado de "+primeiro+" / "+segundo+" é:"+resultado);
+
+            } else if (opcao == 4) {
+                System.out.println("Informe o primeiro número: ");
+                primeiro = sc.nextDouble();
+                System.out.println("Informe o segundo número: ");
+                segundo = sc.nextInt();
+                resultado = primeiro * segundo;
+                System.out.println("O Resultado de "+primeiro+" * "+segundo+" é:"+resultado);
 
             }
-            System.out.println(soma);
-            System.out.println("Deseja fazer uma nova operação?");
-            if (resposta == "S" || resposta == "s"){
-
+            System.out.println("Deseja continuar? ");
+            charOpcao = sc.next();
+            if (charOpcao == "N" || charOpcao == "n"){
+                encerrar = true;
             }
+        }
 
-        }while ()
     }
 }
