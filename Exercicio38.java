@@ -4,7 +4,7 @@ public class Exercicio38 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         boolean encerrar = false;
-        String opcaoEncerramento;
+        char opcaoEncerramento;
         double N, E, HT, salario, SR;
         String C;
 
@@ -24,8 +24,8 @@ public class Exercicio38 {
                 System.out.println("O salário do funcionário é: "+salario+"\ne o salário com reajuste é: "+SR);
             }
             System.out.println("Deseja enrerrar o programa?");
-            opcaoEncerramento = sc.next();
-            if (opcaoEncerramento == "N" || opcaoEncerramento == "n"){
+            opcaoEncerramento = sc.next().charAt(0);
+            if (opcaoEncerramento == 'N' || opcaoEncerramento == 'n'){
                 encerrar = true;
 
             }
