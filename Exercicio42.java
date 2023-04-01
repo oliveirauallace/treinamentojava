@@ -25,7 +25,6 @@ public class Exercicio42 {
 
                 menor = numAtual;
 
-                
             }
             System.out.println("\nO menor número é "+menor+" e o maior número é "+maior+".");
             System.out.println("Deseja continuar? ");
