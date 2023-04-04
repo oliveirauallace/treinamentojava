@@ -10,6 +10,7 @@ public class Exercicio43 {
         for (int i = 1; i < casasdotabuleiro; i++) {
             graosporcasa = graosporcasa*2;
             graos += graosporcasa;
+
         }
         System.out.println("\nO quantidade de grãos é: "+graos);
 
