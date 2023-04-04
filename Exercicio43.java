@@ -12,6 +12,7 @@ public class Exercicio43 {
             graos += graosporcasa;
 
         }
+
         System.out.println("\nO quantidade de grãos é: "+graos);
 
     }
